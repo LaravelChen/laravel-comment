@@ -56,7 +56,7 @@ unset($collections['']);
 		 "email": "orion72@example.org",
 		 "created_at": "2017-08-17 23:59:41",
 		 "updated_at": "2017-08-17 23:59:41"
-		}
+		  }
 	}
 ],
 "root": [
@@ -75,7 +75,7 @@ unset($collections['']);
 		  "email": "848407695@qq.com",
 		  "created_at": "2017-08-17 14:48:40",
 		  "updated_at": "2017-08-17 14:48:40"
-	   }
+	      }
 	}
 ]
 }
