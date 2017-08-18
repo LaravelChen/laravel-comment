@@ -1,9 +1,6 @@
 # Laravel5.4+Vuejs实现嵌套评论
 > 此Demo中的样式或者其他的时间，头像之类的设置，请按照自己的喜好实现，我只实现核心逻辑与功能，你若有更好的实现方法，请分享，谢谢！
 
-### Demo地址
-**Github** ~ https://github.com/LaravelChen/laravel-comment
-
 ### 利用Vuejs实现此功能的原由
 我之前写过一个嵌套评论的Demo，是直接用Laravel5.4实现的，整个实现的过程也非常的清晰明了。项目说明在这里:
 
