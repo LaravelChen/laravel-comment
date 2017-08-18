@@ -11,6 +11,6 @@
 |
 */
 
-\Auth::loginUsingId(1);
+//\Auth::loginUsingId(1);
 Route::get('/', 'PostsCOntroller@index');
 Route::post('post/{post}/comments', 'CommentsController@store');
