@@ -41,43 +41,43 @@ unset($collections['']);
 ```
 {
 "1": [
-		{
-			"id": 2,
-			"user_id": 3,
-			"post_id": 1,
-			"parent_id": 1,
-			"body": "哈哈哈哈",
-			"created_at": "2017-08-17 11:53:01",
-			"updated_at": "2017-08-17 11:53:01",
-			"level": 1,
-			"owner": {
-				"id": 3,
-				"name": "Norwood Bogan",
-				"email": "orion72@example.org",
-				"created_at": "2017-08-17 23:59:41",
-				"updated_at": "2017-08-17 23:59:41"
-				}
-		}
-	],
+	 {
+		"id": 2,
+		"user_id": 3,
+		"post_id": 1,
+		"parent_id": 1,
+		"body": "哈哈哈哈",
+		"created_at": "2017-08-17 11:53:01",
+		"updated_at": "2017-08-17 11:53:01",
+		"level": 1,
+		"owner": {
+			"id": 3,
+			"name": "Norwood Bogan",
+			"email": "orion72@example.org",
+			"created_at": "2017-08-17 23:59:41",
+			"updated_at": "2017-08-17 23:59:41"
+			}
+	}
+],
 "root": [
-		{
-			"id": 1,
-			"user_id": 2,
-			"post_id": 1,
-			"parent_id": null,
-			"body": "这是一条评论\n",
-			"created_at": "2017-08-17 10:58:00",
-			"updated_at": "2017-08-17 10:58:00",
-			"level": 0,
-			"owner": {
-				"id": 2,
-				"name": "LaravelChen",
-				"email": "848407695@qq.com",
-				"created_at": "2017-08-17 14:48:40",
-				"updated_at": "2017-08-17 14:48:40"
-				}
+	{
+		"id": 1,
+		"user_id": 2,
+		"post_id": 1,
+		"parent_id": null,
+		"body": "这是一条评论\n",
+		"created_at": "2017-08-17 10:58:00",
+		"updated_at": "2017-08-17 10:58:00",
+		"level": 0,
+		"owner": {
+			"id": 2,
+			"name": "LaravelChen",
+			"email": "848407695@qq.com",
+			"created_at": "2017-08-17 14:48:40",
+			"updated_at": "2017-08-17 14:48:40"
 		}
-	]
+	}
+]
 }
 ```
 这样结构非常的清晰，我们只需要传入 ```root``` 这个数组给父组件即可，然后子组件按照相应的条件进行递归即可完成.那么具体的```vue```组件的代码请自行下载Demo进行查看.
