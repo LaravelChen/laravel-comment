@@ -83,7 +83,7 @@ unset($collections['']);
 这样结构非常的清晰，我们只需要传入 ```root``` 这个数组给父组件即可，然后子组件按照相应的条件进行递归即可完成.那么具体的```vue```组件的代码请自行下载Demo进行查看.
 
 ### 效果图
-![](https://photo.laravelchen.cn/laravel-comment.gif)
+![image](https://github.com/LaravelChen/laravel-comment/raw/master/public/images/laravel-comment.gif)
 
 > 如果对你有帮助可以点个赞哦 ☺!
 
