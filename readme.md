@@ -17,6 +17,12 @@
 php artisan createData
 ```
 即可创建测试数据,最后放路由试试吧!**祝你好运**~哈哈！
+使用```npm```安装:
+```
+npm install 
+npm run dev
+```
+
 **注意**:
 请在```web.php```中取消登录的注释,
 ```
