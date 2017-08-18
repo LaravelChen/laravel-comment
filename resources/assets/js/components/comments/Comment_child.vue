@@ -31,8 +31,6 @@
         cursor : pointer;
         color:#ABABAB;
     }
-
-
 </style>
 <script>
     export default{

@@ -17,6 +17,7 @@ class PostsController extends Controller
         $collections = $post->getComments();
         $collections['root'] = $collections[''];
         unset($collections['']);
+        return $collections;
         return view('welcome', compact('post','collections'));
     }
 }
